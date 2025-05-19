@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive To-Do App</title>
+    <link rel="stylesheet" href="main.css"> <!-- Link to CSS file -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Main container for the to-do app -->
+    <div class="todo-container">
+        <h1>To-Do List</h1> <!-- App title -->
+        <!-- To-do input form (no JS, so just for display) -->
+        <form class="todo-form">
+            <input type="text" placeholder="Add a new task..." aria-label="Add a new task"> 
+            <button type="submit">Add</button> 
+        </form>
+        <!-- Static list of to-dos (since no JS) -->
+        <ul class="todo-list">
+            <li>
+                <label>
+                    <input type="checkbox"> <!-- Checkbox for marking as done -->
+                    <span class="task">Learn HTML5</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox">
+                    <span class="task">Practice CSS3</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox">
+                    <span class="task">Build a To-Do App</span>
+                </label>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
