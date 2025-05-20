@@ -2,6 +2,11 @@
 
 A simple, responsive to-do list web app built with HTML5, CSS3, and vanilla JavaScript.
 
+## 🚀 Live Demo
+
+[View the live app here!](https://cyberangelo-king.github.io/To-Do-Frontend/) 
+
+
 ## Features
 
 - Add new tasks
